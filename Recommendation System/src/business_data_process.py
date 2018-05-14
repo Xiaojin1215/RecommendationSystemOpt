@@ -1,7 +1,7 @@
 import re
 import sys
 input_path = "../input/business.json"
-output_path = "../input/business_name_id_index"
+output_path = "../tmp/business_name_id_index"
 
 def main():
     business_index = 0

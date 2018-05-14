@@ -1,7 +1,7 @@
 import re
 import sys
 input_path = "../input/user.json"
-output_path = "../input/user_name_id_index"
+output_path = "../tmp/user_name_id_index"
 
 def main():
     user_index = 0

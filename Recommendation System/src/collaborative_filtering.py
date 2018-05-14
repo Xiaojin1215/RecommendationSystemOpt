@@ -103,3 +103,4 @@ if __name__ == "__main__":
                           .mapValues(list).mapValues(similarity_cal)\
                           .filter(lambda (x,y) : y<0.9999 and y > -0.9999)\
                           .saveAsTextFile(args.output)
+    print time() - start

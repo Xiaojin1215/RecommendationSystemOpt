@@ -1,10 +1,12 @@
+import re
+import sys
 input_path = "../input/business.json"
 output_path = "../input/business_name_id_index"
 
 def main():
     business_index = 0
     business_dict = {}
-    with optn(output_path, 'w') as f_w:
+    with open(output_path, 'w') as f_w:
     with open(input_path, 'r') as f_r:
         for line in f_r:
             segs = line.strip()

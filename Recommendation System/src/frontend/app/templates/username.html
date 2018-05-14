@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>User name</title>
+</head>
+<body>
+  <h1>Business Recommendation System</h1>
+  <hr>
+    <h2>User name:</h2><p></p>
+    {% for result in results %}
+      <h3><a href="/results/{{result[1]}}">{{ result[0]}} </a></h3>
+      <p></p>
+    {% endfor %}
+  </hr>
+</body>
+</html>

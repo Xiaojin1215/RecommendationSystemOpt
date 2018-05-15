@@ -3,7 +3,7 @@ import re
 import random
 import string
 
-path_review = "../tmp/small_review"
+path_review = "../../tmp/small_review"
 
 last_item = 174566
 item_length = last_item + 1

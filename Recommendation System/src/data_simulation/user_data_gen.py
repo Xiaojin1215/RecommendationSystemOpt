@@ -3,7 +3,7 @@ import re
 import random
 import string
 
-path_review = "../tmp/small_review"
+path_review = "../../tmp/small_review"
 last_user = 1326100
 user_length = last_user + 1
 gen_rate = 4

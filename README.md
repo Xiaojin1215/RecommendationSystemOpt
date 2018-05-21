@@ -21,6 +21,8 @@ The recommendation system model used in this project is item-based collaborative
 The formular of similarity matrix calculation shown as follow:
 
 <div align=center><img width="550" height="150" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/cf-formular.png"/></div>
+With the similartiy matrix, we can predict the rates of a user to an item by using the formular as follow:
+<div align=center><img width="500" height="150" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/cf-predict-formular.png"/></div>
 
 ## Data Engineering Challenge
 

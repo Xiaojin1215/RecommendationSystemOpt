@@ -24,12 +24,23 @@ The formular of similarity matrix calculation shown as follow:
 With the similartiy matrix, we can predict the rates of a user to an item by using the formular as follow:
 <div align=center><img width="360" height="120" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/cf-predict-formular.png"/></div>
 
-## Data Engineering Challenge
+## Data Engineering Challenge and Optimization
 
-## Prerequisites
+### Data Preprocessing
 
-## Installing
+Change the user_id and item_id from a String to Integer.
 
+### Spark Tuning
+Increase the value of "Spark.memory.fraction", decreased the value of "Spark.memory.storageFraction". Save more memory for shuffle write. 
+
+### Data Skew Solution
+Instead of joining the big table "review" with the small table "avg_star" twice, broadcast the "avg_star" first, and saved it as a variable. Using "map-side join" twice to save time. 
+
+## Pipeline
+<div align=center><img width="360" height="120" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/pipeline.png"/></div>
+
+## Performance
+<div align=center><img width="360" height="120" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/performance.png"/></div>
 ## Author
 This code challenge was made by Xiaojin(Ruby)Liu. If you have any questions, please feel free ton contact me through email: <xiaojinliumail@gmail.com>
 

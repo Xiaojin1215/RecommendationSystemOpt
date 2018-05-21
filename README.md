@@ -24,7 +24,7 @@ The formular of similarity matrix calculation shown as follow:
 With the similartiy matrix, we can predict the rates of a user to an item by using the formular as follow:
 <div align=center><img width="360" height="120" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/cf-predict-formular.png"/></div>
 A simple example is shown as follow to understand the algorithm better:
-<div align=center><img width="360" height="120" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/cf-img.png"/></div>
+<div align=center><img width="360" height="360" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/cf-img.png"/></div>
 ## Data Engineering Challenge and Optimization
 
 ### Data Preprocessing

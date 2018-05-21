@@ -19,7 +19,8 @@ The project started with a subset of [Yelp dataset](https://www.yelp.com/dataset
 ## Recommendation System Algorithm
 The recommendation system model used in this project is item-based collaborative filtering, which calculate the similarity matrix between every two items according to the rates given by common users of those two items. 
 The formular of similarity matrix calculation shown as follow:
-![][cf-formular]
+
+<div align=center><img width="150" height="150" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/cf-formular.png"/></div>
 
 ## Data Engineering Challenge
 
@@ -30,4 +31,3 @@ The formular of similarity matrix calculation shown as follow:
 ## Author
 This code challenge was made by Xiaojin(Ruby)Liu. If you have any questions, please feel free ton contact me through email: <xiaojinliumail@gmail.com>
 
-[cf-formular]:https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/cf-formular.png

@@ -41,7 +41,7 @@ Instead of joining the big table "review" with the small table "avg_star" twice,
 <div align=center><img width="720" height="300" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/pipeline.png"/></div>
 
 ## Performance
-<div align=center><img width="720" height="500" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/performance.png"/></div>
+<div align=center><img width="720" height="400" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/performance.png"/></div>
 ## Author
 This code challenge was made by Xiaojin(Ruby)Liu. If you have any questions, please feel free ton contact me through email: <xiaojinliumail@gmail.com>
 

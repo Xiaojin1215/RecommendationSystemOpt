@@ -29,10 +29,10 @@ A simple example is shown as follow to understand the algorithm better:
 
 ### Data Preprocessing
 
-Change the user_id and item_id from a String to Integer.
+Change the user_id and item_id from String to Integer.
 
 ### Spark Tuning
-Increase the value of "Spark.memory.fraction", decreased the value of "Spark.memory.storageFraction". Save more memory for shuffle write. 
+Increase the value of "Spark.memory.fraction", decreased the value of "Spark.memory.storageFraction". Save memory for shuffle write. 
 
 ### Data Skew Solution
 Instead of joining the big table "review" with the small table "avg_star" twice, broadcast the "avg_star" first, and saved it as a variable. Using "map-side join" twice to save time. 
@@ -42,6 +42,7 @@ Instead of joining the big table "review" with the small table "avg_star" twice,
 
 ## Performance
 <div align=center><img width="720" height="400" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/performance.png"/></div>
+
 ## Author
-This code challenge was made by Xiaojin(Ruby)Liu. If you have any questions, please feel free ton contact me through email: <xiaojinliumail@gmail.com>
+This project was made by Xiaojin(Ruby)Liu. If you have any questions, please feel free ton contact me through email: <xiaojinliumail@gmail.com>
 

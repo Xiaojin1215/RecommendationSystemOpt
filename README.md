@@ -14,8 +14,11 @@ Project of Insight Data Engineering Fellow 2018B
 The purpose of this project is to build a recommendation system according to the rates what users gave before. The core algorithm was implemented by Spark. 
 
 ## Data
+The project started with a subset of [Yelp dataset](https://www.yelp.com/dataset). After that, scale up to the whole dataset, which contains 5.2 million review records. Finally, I simulated 4 times of this dataset to train the recommendation system model.
 
-The project started with a subset of the [Yelp dataset](https://www.yelp.com/dataset). 
+## Recommendation System Algorithm
+The recommendation system model used in this project is item-based collaborative filtering, which calculate the similarity matrix between every two items according to the rates given by common users of those two items. 
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" style="border:none;">
 
 ## Data Engineering Challenge
 

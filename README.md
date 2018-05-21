@@ -38,7 +38,7 @@ Increase the value of "Spark.memory.fraction", decreased the value of "Spark.mem
 Instead of joining the big table "review" with the small table "avg_star" twice, broadcast the "avg_star" first, and saved it as a variable. Using "map-side join" twice to save time. 
 
 ## Pipeline
-<div align=center><img width="360" height="120" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/pipeline.png"/></div>
+<div align=center><img width="720" height="300" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/pipeline.png"/></div>
 
 ## Performance
 <div align=center><img width="360" height="120" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/performance.png"/></div>

@@ -2,7 +2,7 @@
 Project of Insight Data Engineering Fellow 2018B
 
 ## Table of Contents
-1. [Introduction](README.md#the-product)
+1. [Introduction](README.md#introduction)
 2. [Data](README.md#data)
 3. [Recommendation System Algorithm](README.md#recommendation-system-algorithm)
 4. [Spark Tuning](README.md#spark-tuning)

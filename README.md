@@ -1,8 +1,21 @@
 # Recommendation System Optimization
-Project of Insight Data Engineering Fellow 2018C
+Project of Insight Data Engineering Fellow 2018B
 
-## Project Introduction
-This project focus on optimizing the skew data problem when we join big tables in Spark. I used a Recommendation System to evaluate my methods.  
+## Table of Contents
+1. [Introduction](README.md#the-product)
+2. [Data](README.md#data)
+3. [Recommendation System Algorithm](README.md#recommendation-system-algorithm)
+4. [Spark Tuning](README.md#spark-tuning)
+5. [Data Skew Solution](README.md#data-skew-solution)
+6. [Pipeline](README.md#pipeline)
+7. [Performance](README.md#performance)
+
+## Introduction
+The purpose of this project is to build a recommendation system according to the rates what users gave before. The core algorithm was implemented by Spark. 
+
+## Data
+
+The project started with a subset of the [Yelp dataset](https://www.yelp.com/dataset). 
 
 ## Data Engineering Challenge
 

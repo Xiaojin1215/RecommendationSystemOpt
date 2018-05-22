@@ -4,7 +4,7 @@ Project of Insight Data Engineering Fellow 2018B
 ## Table of Contents
 1. [Introduction](README.md#introduction)
 2. [Data](README.md#data)
-3. [Recommendation System Algorithm](README.md#recommendation-system-algorithm)
+3. [Algorithm](README.md#algorithm)
 4. [Spark Tuning](README.md#spark-tuning)
 5. [Data Skew Solution](README.md#data-skew-solution)
 6. [Pipeline](README.md#pipeline)
@@ -16,7 +16,7 @@ The purpose of this project is to build a recommendation system according to the
 ## Data
 The project started with a subset of [Yelp dataset](https://www.yelp.com/dataset). After that, scale up to the whole dataset, which contains 5.2 million review records. Finally, I simulated 4 times of this dataset to train the recommendation system model.
 
-## Recommendation System Algorithm
+## Algorithm
 The recommendation system model used in this project is item-based collaborative filtering, which calculate the similarity matrix between every two items according to the rates given by common users of those two items. 
 The formular of similarity matrix calculation shown as follow:
 

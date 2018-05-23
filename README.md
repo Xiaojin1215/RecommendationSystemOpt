@@ -25,6 +25,7 @@ With the similartiy matrix, we can predict the rates of a user to an item by usi
 <div align=center><img width="360" height="120" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/cf-predict-formular.png"/></div>
 A simple example is shown as follow to understand the algorithm better:
 <div align=center><img width="450" height="250" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/cf-img.png"/></div>
+
 ## Data Engineering Challenge and Optimization
 
 ### Data Preprocessing
@@ -42,6 +43,9 @@ Instead of joining the big table "review" with the small table "avg_star" twice,
 
 ## Performance
 <div align=center><img width="720" height="400" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/performance.png"/></div>
+
+## Conclusion
+A large-scale recommendation system is implemented in this project. 
 
 ## Author
 This project was made by Xiaojin(Ruby)Liu. If you have any questions, please feel free ton contact me through email: <xiaojinliumail@gmail.com>

@@ -36,7 +36,7 @@ Change the user_id and item_id from String to Integer.
 Increase the value of "Spark.memory.fraction", decreased the value of "Spark.memory.storageFraction". Save memory for shuffle write. 
 
 ### Data Skew Solution
-Instead of joining the big table "review" with the small table "avg_star" twice, broadcast the "avg_star" first, and saved it as a variable. Using "map-side join" twice to save time. 
+Instead of joining the big table "review" with the small table "avg_star" twice, broadcast the "avg_star" first, and saved it as a variable. Using "map-side join" twice to save time. To be specific, save the small table on each executor, and leave the large table untouched, doesn't shuffle anything. So the small table is saved on executors and we can do a linear scan through all the small table to the big partitions and then you can join on the keys. 
 
 ## Pipeline
 <div align=center><img width="720" height="300" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/pipeline.png"/></div>
@@ -45,7 +45,7 @@ Instead of joining the big table "review" with the small table "avg_star" twice,
 <div align=center><img width="720" height="400" src="https://github.com/Xiaojin1215/RecommendationSystemOpt/blob/master/Slides/img/performance.png"/></div>
 
 ## Conclusion
-A large-scale recommendation system is implemented in this project. 
+A large-scale recommendation system is implemented in this project. Data skew problem was solved by using broadcast and map-side join, which also avoid the shuffle. After simulated more data, the business recommendation system can still handle it, model training part cost 1.6 hours. 
 
 ## Author
 This project was made by Xiaojin(Ruby)Liu. If you have any questions, please feel free ton contact me through email: <xiaojinliumail@gmail.com>
